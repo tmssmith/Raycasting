@@ -1,0 +1,9 @@
+name: pygame_env
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python
+    - pip
+    - pip:
+        - pygame==2.0.0.dev6
